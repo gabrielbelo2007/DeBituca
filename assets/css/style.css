@@ -384,6 +384,10 @@ blockquote::before {
   color: var(--chem-orange);
 }
 
+.posts_latest p, .posts_order p {
+  margin: 10px 0px;
+}
+
 .posts p, .posts_latest p, .posts_order p {
   font-size: 0.95em;
   color: var(--text-medium);
