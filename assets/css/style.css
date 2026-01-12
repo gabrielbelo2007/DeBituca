@@ -94,12 +94,14 @@ h1, h2.highlight-title {
   display: inline-block;
 }
 
-h2 {
+.post-content h2 {
   font-family: var(--tittle-font);
   font-size: 1.8em;
-  margin: 10px;
   color: var(--chem-orange);
-  text-align: center; /* Centraliza títulos de seções */
+}
+
+.post h3 {
+  color: var(--chem-orange);
 }
 
 p {
@@ -146,7 +148,7 @@ p {
 }
 
 .site-title {
-  font-family: var(--tittle-font );
+  font-family: var(--tittle-font);
 }
 
 /* CORREÇÃO DO MENU: Remoção dos pontinhos */
@@ -155,7 +157,7 @@ p {
   padding: 0; /* Remove padding padrão */
   list-style: none; /* REMOVE OS PONTINHOS */
   display: flex;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
 }
 
@@ -167,7 +169,7 @@ p {
   font-size: 1em;
   font-family: var(--tittle-font);
   color: var(--text-medium);
-  padding: 8px 16px;
+  padding: 8px 10px;
   border-radius: 30px;
   background: transparent;
   transition: all 0.3s ease;
@@ -232,7 +234,7 @@ p {
 }
 
 .post-subtitle {
-  font-family: var(--header-font); /* Mudei para a fonte de título para parecer subtítulo de jornal */
+  font-family: var(--header-font);
   font-size: 1.3em;
   color: var(--text-medium);
   font-weight: 500;
